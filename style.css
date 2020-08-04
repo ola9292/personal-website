@@ -1,0 +1,81 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  background: url(pictures/sunset.jpg) no-repeat;
+  background-size: cover;
+} */
+body { 
+  background: url(pictures/sunset.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: sans-serif;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box p{
+  text-align: justify;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a{
+  color: white;
+ text-decoration: none;
+ font-size: 45px;
+ transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+  color:#b9b9b9;
+ 
+}
+
+.box button{
+ 
+  margin-bottom: 10px;
+  border: none;
+ 
+}
+.box button:hover{
+  background-color: grey;
+}
